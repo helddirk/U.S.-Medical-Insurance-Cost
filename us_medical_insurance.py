@@ -644,7 +644,7 @@ print("In this bmi group are "+
 # There are 74 smoker with obesity.
 # They have an average cost of 39640.59 Dollar.
 # In this bmi group are 81% non-smokers and 19% smoker.
-print("\nThere are " + str(ns_bmi_5[0]) + " non-smoker with a BMI < 35." +
+print("\nThere are " + str(ns_bmi_5[0]) + " non-smoker with a BMI > 35." +
       "\nThey have an average cost of " + str(ns_bmi_5[1]) + " Dollar.")
 print("There are " + str(s_bmi_5[0]) + " smoker with a BMI > 35." +
       "\nThey have an average cost of " + str(s_bmi_5[1]) + " Dollar.")
@@ -652,7 +652,7 @@ print("In this bmi group are "+
       str(round(ns_bmi_5[0]/(ns_bmi_5[0]+s_bmi_5[0])*100)) +
       "% non-smokers and " + 
       str(round(s_bmi_5[0]/(ns_bmi_5[0]+s_bmi_5[0])*100)) + "% smoker.")
-# There are 245 non-smoker with a BMI < 35.
+# There are 245 non-smoker with a BMI > 35.
 # They have an average cost of 9244.5 Dollar.
 # There are 71 smoker with a BMI > 35.
 # They have an average cost of 43556.4 Dollar.
